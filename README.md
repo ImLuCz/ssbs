@@ -104,7 +104,10 @@ files themselves are the source of truth, not the commit history.
 ## Getting started
 
 ```bash
-cd second-brain
+git clone https://github.com/ImLuCz/ssbs.git
+mv ssbs/ second-brain/
+cd second-brain/
+rm -rf .git/
 git init
 git add -A
 git commit -m "Initial second brain scaffold"
